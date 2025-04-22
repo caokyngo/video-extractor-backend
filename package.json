@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server_use_cookie.js",
   "scripts": {
-    "start": "node server_use_cookie.js"
+    "start": "node server_use_cookie.js",
+	"postinstall": "puppeteer install"
   },
   "keywords": [],
   "author": "",
