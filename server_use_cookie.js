@@ -28,7 +28,7 @@ app.get('/api/get-video', async (req, res) => {
 
   try {
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: new,
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined
     });
